@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phụ kiện - Trek Bikes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .main-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            display: flex;
+            gap: 40px;
+        }
+
+        #sidebar {
+            width: 288px;
+            padding: 24px;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 96px;
+            height: fit-content;
+            flex-shrink: 0;
+        }
+
+        #sidebar h2 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 24px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #e5e5e5;
+        }
+
+        .filter-group {
+            margin-bottom: 32px;
+        }
+
+        .filter-group label.group-title {
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 12px;
+        }
+
+        .filter-group label.group-title i {
+            color: #dc2626;
+            margin-right: 8px;
+        }
+
+        #sort-select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            background: white;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        #sort-select:focus {
+            outline: none;
+            border-color: #dc2626;
+            box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.1);
+        }
+
+        .filter-options {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .filter-options label {
+            display: flex;
+            align-items: center;
+            padding: 8px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.15s;
+            color: #4b5563;
+        }
+
+        .filter-options label:hover {
+            background: #f3f4f6;
+        }
+
+        .filter-options input[type="checkbox"],
+        .filter-options input[type="radio"] {
+            width: 20px;
+            height: 20px;
+            margin-right: 12px;
+            cursor: pointer;
+            accent-color: #dc2626;
+        }
+
+        .clear-filters-btn {
+            width: 100%;
+            padding: 10px;
+            margin-top: 16px;
+            border: none;
+            border-top: 1px dashed #d1d5db;
+            background: none;
+            color: #dc2626;
+            font-weight: 600;
+            font-size: 14px;
+            cursor: pointer;
+            text-align: left;
+            transition: all 0.2s;
+        }
+
+        .clear-filters-btn:hover {
+            text-decoration: underline;
+        }
+
+        .content-area {
+            flex-grow: 1;
+        }
+
+        @media (max-width: 1024px) {
+            .main-container {
+                flex-direction: column;
+            }
+
+            #sidebar {
+                width: 100%;
+                position: static;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">🚴 Trek Bikes</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="bikes.html">Xe đạp</a></li>
+                <li><a href="accessories.html">Phụ kiện</a></li>
+                <li id="authLink"><a href="login.html">Đăng nhập</a></li>
+                <li>
+                    <a href="cart.html">
+                        <div class="cart-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-count" id="cartCount">0</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <h1>🛠️ Phụ kiện xe đạp</h1>
+        <p>Trang bị đầy đủ cho hành trình của bạn</p>
+    </div>
+
+    <div class="main-container">
+        <aside id="sidebar">
+            <h2>Bộ lọc</h2>
+
+            <div class="filter-group">
+                <label for="sort-select" class="group-title">
+                    <i class="fas fa-sort-amount-down-alt"></i> Sắp xếp
+                </label>
+                <select id="sort-select">
+                    <option value="featured">Nổi bật</option>
+                    <option value="low-high">Giá: Thấp đến Cao</option>
+                    <option value="high-low">Giá: Cao đến Thấp</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label class="group-title">
+                    <i class="fas fa-layer-group"></i> Danh mục
+                </label>
+                <div class="filter-options">
+                    <label>
+                        <input type="checkbox" name="category" value="Smart Trainers">
+                        <span>Smart Trainers</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="category" value="GPS Bike Computers">
+                        <span>GPS Bike Computers</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="category" value="Helmet">
+                        <span>Mũ bảo hiểm</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="category" value="Wheelsets">
+                        <span>Wheelsets</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="category" value="Shoes">
+                        <span>Giày</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <label class="group-title">
+                    <i class="fas fa-dollar-sign"></i> Khoảng giá
+                </label>
+                <div class="filter-options">
+                    <label>
+                        <input type="radio" name="price-range" value="0-1000000">
+                        <span>Dưới 1.000.000₫</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="price-range" value="1000001-5000000">
+                        <span>1.000.000₫ - 5.000.000₫</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="price-range" value="5000001-10000000">
+                        <span>5.000.000₫ - 10.000.000₫</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="price-range" value="10000001-999999999">
+                        <span>Trên 10.000.000₫</span>
+                    </label>
+                </div>
+                <button class="clear-filters-btn" onclick="clearAllFilters()">
+                    <i class="fas fa-undo-alt"></i> Xóa tất cả bộ lọc
+                </button>
+            </div>
+        </aside>
+
+        <section class="content-area">
+            <div class="products-grid" id="accessoriesGrid"></div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Trek Bikes. All rights reserved.</p>
+    </footer>
+
+    <script src="accessories-page.js"></script>
+</body>
+
+</html>
