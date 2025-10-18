@@ -216,12 +216,10 @@ const bikes = [
     category: "Road Bikes",
     featured: true,
     thumb_images: [
-      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/speed-concept-slr-9-axs/thumbs/1000/a76d6.webp",
-      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/speed-concept-slr-9-axs/thumbs/1000/dc370.webp",
-      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/speed-concept-slr-9-axs/thumbs/1000/eb382.webp",
-      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/speed-concept-slr-9-axs/thumbs/1000/ea188.webp",
-      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/speed-concept-slr-9-axs/thumbs/1000/a76d6.webp",
-      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/speed-concept-slr-9-axs/thumbs/1000/bd437.webp"
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2026/domane-slr-9-axs-gen-4/thumbs/1000/707f6.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2026/domane-slr-9-axs-gen-4/thumbs/1000/3d604.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2026/domane-slr-9-axs-gen-4/thumbs/1000/44910.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2026/domane-slr-9-axs-gen-4/thumbs/1000/fa316.webp"
     ],
     specs: {
       short: {
@@ -313,12 +311,18 @@ const bikes = [
     category: "Gravel Bikes",
     featured: true,
     thumb_images: [
-      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/speed-concept-slr-9-axs/thumbs/1000/a76d6.webp",
-      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/speed-concept-slr-9-axs/thumbs/1000/dc370.webp",
-      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/speed-concept-slr-9-axs/thumbs/1000/eb382.webp",
-      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/speed-concept-slr-9-axs/thumbs/1000/ea188.webp",
-      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/speed-concept-slr-9-axs/thumbs/1000/a76d6.webp",
-      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/speed-concept-slr-9-axs/thumbs/1000/bd437.webp"
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/checkpoint-slr-9-axs/thumbs/1000/2b8c6.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/checkpoint-slr-9-axs/thumbs/1000/d2a4a.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/checkpoint-slr-9-axs/thumbs/1000/5f949.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/checkpoint-slr-9-axs/thumbs/1000/83ae1.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/checkpoint-slr-9-axs/thumbs/1000/efe1e.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/checkpoint-slr-9-axs/thumbs/1000/ee279.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/checkpoint-slr-9-axs/thumbs/1000/564e8.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/checkpoint-slr-9-axs/thumbs/1000/9759f.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/checkpoint-slr-9-axs/thumbs/1000/56219.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/checkpoint-slr-9-axs/thumbs/1000/f17d5.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/checkpoint-slr-9-axs/thumbs/1000/eb35c.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/checkpoint-slr-9-axs/thumbs/1000/1bebb.webp"
     ],
     specs: {
       short: {
@@ -410,12 +414,11 @@ const bikes = [
     category: "Mountain Bikes",
     featured: true,
     thumb_images: [
-      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/speed-concept-slr-9-axs/thumbs/1000/a76d6.webp",
-      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/speed-concept-slr-9-axs/thumbs/1000/dc370.webp",
-      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/speed-concept-slr-9-axs/thumbs/1000/eb382.webp",
-      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/speed-concept-slr-9-axs/thumbs/1000/ea188.webp",
-      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/speed-concept-slr-9-axs/thumbs/1000/a76d6.webp",
-      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/speed-concept-slr-9-axs/thumbs/1000/bd437.webp"
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2026/supercaliber-slr-9.9-xx-flight-attendant-gen-2/thumbs/1000/72374.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2026/supercaliber-slr-9.9-xx-flight-attendant-gen-2/thumbs/1000/dc18e.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2026/supercaliber-slr-9.9-xx-flight-attendant-gen-2/thumbs/1000/f4216.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2026/supercaliber-slr-9.9-xx-flight-attendant-gen-2/thumbs/1000/67eb5.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2026/supercaliber-slr-9.9-xx-flight-attendant-gen-2/thumbs/1000/386aa.webp"
     ],
     specs: {
       short: {
