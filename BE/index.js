@@ -1,6 +1,6 @@
 // index.js - Unified Express Server for Bike and Accessory Data
-const express = require(express);
-const cors = require(cors);
+const express = require('express');
+const cors = require('cors');
 const app = express();
 // Use the port from environment variables or default to 3000
 const PORT = process.env.PORT || 3000;
@@ -110,97 +110,299 @@ const bikes = [
         }
       }
     }
-  };
-{
-  id: 2,
+  },
+  {
+    id: 2,
     name: "Madone SLR 9 AXS Gen 8",
-      price: 13499,
-        image: "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/MadoneSLR9AXS-26-46151-E-Primary",
-          desc: "The Madone SLR 9 AXS Gen 8 is the ultimate road bike for riders who demand the best. With a lightweight carbon frame, advanced aerodynamic design, and top-of-the-line components, this bike is built for speed, comfort, and performance. Whether you're racing or just enjoying a long ride, the Madone SLR 9 AXS Gen 8 will help you reach your full potential.",
-            category: "Road Bikes",
-              featured: true,
+    price: 13499,
+    image: "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/MadoneSLR9AXS-26-46151-E-Primary",
+    desc: "The Madone SLR 9 AXS Gen 8 is the ultimate road bike for riders who demand the best. With a lightweight carbon frame, advanced aerodynamic design, and top-of-the-line components, this bike is built for speed, comfort, and performance. Whether you're racing or just enjoying a long ride, the Madone SLR 9 AXS Gen 8 will help you reach your full potential.",
+    category: "Road Bikes",
+    featured: true,
   },
-{
-  id: 3,
+  {
+    id: 3,
     name: "Domane SLR 9 AXS Gen 4",
-      price: 12499,
-        image: "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/DomaneSLR9AXS-26-57944-A-Primary",
-          desc: "The Domane SLR 9 eTap Gen 4 is the ultimate endurance road bike, designed to help you go farther and faster with less effort. With a lightweight carbon frame, advanced suspension technology, and top-of-the-line components, this bike is built for comfort, performance, and versatility.",
-            category: "Road Bikes",
-              featured: true,
+    price: 12499,
+    image: "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/DomaneSLR9AXS-26-57944-A-Primary",
+    desc: "The Domane SLR 9 eTap Gen 4 is the ultimate endurance road bike, designed to help you go farther and faster with less effort. With a lightweight carbon frame, advanced suspension technology, and top-of-the-line components, this bike is built for comfort, performance, and versatility.",
+    category: "Road Bikes",
+    featured: true,
   },
-{
-  id: 4,
+  {
+    id: 4,
     name: "Checkpoint SLR 9 AXS",
-      price: 11999,
-        image: "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/CheckmateSLR9AXS-26-46-Primary",
-          desc: "The Checkpoint SLR 9 eTap is the ultimate gravel bike, designed to help you explore new terrain and push your limits. With a lightweight carbon frame, advanced suspension technology, and top-of-the-line components, this bike is built for versatility, performance, and adventure.",
-            category: "Gravel Bikes",
-              featured: true,
+    price: 11999,
+    image: "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/CheckmateSLR9AXS-26-46-Primary",
+    desc: "The Checkpoint SLR 9 eTap is the ultimate gravel bike, designed to help you explore new terrain and push your limits. With a lightweight carbon frame, advanced suspension technology, and top-of-the-line components, this bike is built for versatility, performance, and adventure.",
+    category: "Gravel Bikes",
+    featured: true,
   },
-{
-  id: 5,
+  {
+    id: 5,
     name: "Supercaliber SLR 9.9 XX Flight Attendant Gen 2",
-      price: 14999,
-        image: "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/SupercaliberSLR99XXFlightAttendant-26-57945-A-Primary",
-          desc: "The Supercaliber SLR 9.9 XX Flight Attendant Gen 2 is the ultimate cross-country mountain bike, designed for speed and agility. With a lightweight carbon frame and advanced suspension, it’s built for racing or exploring trails with power and precision.",
-            category: "Mountain Bikes",
-              featured: true,
+    price: 14999,
+    image: "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/SupercaliberSLR99XXFlightAttendant-26-57945-A-Primary",
+    desc: "The Supercaliber SLR 9.9 XX Flight Attendant Gen 2 is the ultimate cross-country mountain bike, designed for speed and agility. With a lightweight carbon frame and advanced suspension, it’s built for racing or exploring trails with power and precision.",
+    category: "Mountain Bikes",
+    featured: true,
   },
-{
-  id: 6,
+  {
+    id: 6,
     name: "Top Fuel SLR 9.9 XX1 AXS Gen 4",
-      price: 12999,
-        image: "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/TopFuelSLR99XX1AXS-26-57946-A-Primary",
-          desc: "The Top Fuel SLR 9.9 XX1 AXS Gen 4 is the ultimate trail bike, designed to tackle any terrain with speed and agility. With a lightweight carbon frame, advanced suspension technology, and top-tier components, it’s built for performance and adventure.",
-            category: "Mountain Bikes",
-              featured: true,
+    price: 12999,
+    image: "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/TopFuelSLR99XX1AXS-26-57946-A-Primary",
+    desc: "The Top Fuel SLR 9.9 XX1 AXS Gen 4 is the ultimate trail bike, designed to tackle any terrain with speed and agility. With a lightweight carbon frame, advanced suspension technology, and top-tier components, it’s built for performance and adventure.",
+    category: "Mountain Bikes",
+    featured: true,
   },
-{
-  id: 7,
+  {
+    id: 7,
     name: "Rail 9.9 XX1 AXS",
-      price: 8999,
-        image: "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/Rail99XX1AXS-26-57947-A-Primary",
-          desc: "The Rail 9.9 XX1 AXS is the ultimate e-MTB, combining power and performance with a sleek carbon frame and advanced suspension. Perfect for conquering trails and mountains alike.",
-            category: "Mountain Bikes",
-              featured: true,
+    price: 8999,
+    image: "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/Rail99XX1AXS-26-57947-A-Primary",
+    desc: "The Rail 9.9 XX1 AXS is the ultimate e-MTB, combining power and performance with a sleek carbon frame and advanced suspension. Perfect for conquering trails and mountains alike.",
+    category: "Mountain Bikes",
+    featured: true,
   },
-{
-  id: 8,
+  {
+    id: 8,
     name: "Marlin 8",
-      price: 1199,
-        image: "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/Marlin8-26-57948-A-Primary",
-          desc: "The Marlin 8 is a hardtail mountain bike designed for agility and control. With an aluminum frame and responsive suspension, it’s ideal for both trails and daily rides.",
-            category: "Mountain Bikes",
-              featured: false,
+    price: 1199,
+    image: "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/Marlin8-26-57948-A-Primary",
+    desc: "The Marlin 8 is a hardtail mountain bike designed for agility and control. With an aluminum frame and responsive suspension, it’s ideal for both trails and daily rides.",
+    category: "Mountain Bikes",
+    featured: false,
   },
-{
-  id: 9,
+  {
+    id: 9,
     name: "Slash 9.9 XX1 AXS",
-      price: 8999,
-        image: "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/Slash99XX1AXS-26-57949-A-Primary",
-          desc: "The Slash 9.9 XX1 AXS is the ultimate enduro bike, built for high-speed descents and technical climbs. Lightweight, powerful, and efficient — ready for any trail.",
-            category: "Mountain Bikes",
-              featured: false,
+    price: 8999,
+    image: "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/Slash99XX1AXS-26-57949-A-Primary",
+    desc: "The Slash 9.9 XX1 AXS is the ultimate enduro bike, built for high-speed descents and technical climbs. Lightweight, powerful, and efficient — ready for any trail.",
+    category: "Mountain Bikes",
+    featured: false,
   },
-{
-  id: 10,
-    name: "Procaliber 9.9 XX1 AXS";
-      price: 7999,
-        image: "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/Procaliber99XX1AXS-26-57950-A-Primary",
-          desc: "The Procaliber 9.9 XX1 AXS is a lightweight, cross-country race bike built for efficiency and control. Designed to help you ride faster and farther with less effort.",
-            category: "Mountain Bikes";
-              featured: false,
+  {
+    id: 10,
+    name: "Procaliber 9.9 XX1 AXS",
+    price: 7999,
+    image: "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/Procaliber99XX1AXS-26-57950-A-Primary",
+    desc: "The Procaliber 9.9 XX1 AXS is a lightweight, cross-country race bike built for efficiency and control. Designed to help you ride faster and farther with less effort.",
+    category: "Mountain Bikes",
+    featured: false,
+  },
+  {
+    id: 11,
+    name: "FX Sport 6",
+    price: 6999,
+    image:
+      "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/FXSport6-26-57951-A-Primary",
+    desc: "The FX Sport 6 is the ultimate fitness bike, designed to help you stay in shape and enjoy the ride. With a lightweight aluminum frame, advanced components, and a comfortable geometry, this bike is built for performance, versatility, and fun. Whether you're commuting, training, or just enjoying a ride, the FX Sport 6 will help you reach your fitness goals.",
+    category: "City Bikes",
+    featured: false,
+  },
+  {
+    id: 12,
+    name: "Dual Sport 3",
+    price: 5999,
+    image:
+      "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/DualSport3-26-57952-A-Primary",
+    desc: "The Dual Sport 3 is the ultimate hybrid bike, designed to help you tackle any terrain with ease. With a lightweight aluminum frame, advanced components, and a comfortable geometry, this bike is built for performance, versatility, and fun. Whether you're commuting, exploring, or just enjoying a ride, the Dual Sport 3 will help you reach new destinations.",
+    category: "City Bikes",
+    featured: false,
+  },
+  {
+    id: 13,
+    name: "Verve 3",
+    price: 4999,
+    image:
+      "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/Verve3-26-57953-A-Primary",
+    desc: "The Verve 3 is the ultimate comfort bike, designed to help you enjoy the ride. With a lightweight aluminum frame, advanced components, and a comfortable geometry, this bike is built for performance, versatility, and fun. Whether you're commuting, exploring, or just enjoying a ride, the Verve 3 will help you reach new destinations.",
+    category: "City Bikes",
+    featured: false,
+  },
+  {
+    id: 14,
+    name: "Allant+ 9.9S",
+    price: 8999,
+    image:
+      "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/AllantPlus99S-26-57954-A-Primary",
+    desc: "The Allant+ 9.9S is the ultimate electric bike, designed to help you conquer any terrain with speed and power. With a lightweight aluminum frame, advanced components, and a powerful motor, this bike is built for performance, versatility, and fun. Whether you're commuting, exploring, or just enjoying a ride, the Allant+ 9.9S will help you reach new destinations.",
+    category: "City Bikes",
+    featured: false,
+  },
+  {
+    id: 15,
+    name: "Checkpoint SL 7",
+    price: 7999,
+    image:
+      "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/CheckpointSL7-26-57955-A-Primary",
+    desc: "The Checkpoint SL 7 is the ultimate Gravel bike, designed to help you explore new terrain and push your limits. With a lightweight carbon frame, advanced components, and a comfortable geometry, this bike is built for performance, versatility, and fun. Whether you're commuting, exploring, or just enjoying a ride, the Checkpoint SL 7 will help you reach new destinations.",
+    category: "Gravel Bikes",
+    featured: false,
+  },
+  {
+    id: 16,
+    name: "Domane AL 5",
+    price: 2999,
+    image:
+      "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/DomaneAL5-26-57956-A-Primary",
+    desc: "The Domane AL 5 is the ultimate entry-level Road bike, designed to help you get started on your cycling journey. With a lightweight aluminum frame, advanced components, and a comfortable geometry, this bike is built for performance, versatility, and fun. Whether you're commuting, training, or just enjoying a ride, the Domane AL 5 will help you reach your cycling goals.",
+    category: "Road Bikes",
+    featured: false,
+  },
+  {
+    id: 17,
+    name: "Checkpoint ALR 5",
+    price: 2499,
+    image:
+      "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/CheckpointALR5-26-57957-A-Primary",
+    desc: "The Checkpoint ALR 5 is the ultimate entry-level Gravel bike, designed to help you explore new terrain and push your limits. With a lightweight aluminum frame, advanced components, and a comfortable geometry, this bike is built for performance, versatility, and fun. Whether you're commuting, exploring, or just enjoying a ride, the Checkpoint ALR 5 will help you reach new destinations.",
+    category: "Gravel Bikes",
+    featured: false,
+  },
+  {
+    id: 18,
+    name: "Marlin 7",
+    price: 799,
+    image:
+      "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/Marlin7-26-57958-A-Primary",
+    desc: "The Marlin 7 is the ultimate hardtail mountain bike, designed to help you tackle any trail with speed and agility. With a lightweight aluminum frame, advanced suspension technology, and top-of-the-line components, this bike is built for performance, versatility, and adventure. Whether you're racing or just enjoying a ride, the Marlin 7 will help you reach new heights.",
+    category: "Mountain Bikes",
+    featured: false,
+  },
+  {
+    id: 19,
+    name: "FX 3 Disc",
+    price: 699,
+    image:
+      "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/FX3Disc-26-57959-A-Primary",
+    desc: "The FX 3 Disc is the ultimate fitness bike, designed to help you stay in shape and enjoy the ride. With a lightweight aluminum frame, advanced components, and a comfortable geometry, this bike is built for performance, versatility, and fun. Whether you're commuting, training, or just enjoying a ride, the FX 3 Disc will help you reach your fitness goals.",
+    category: "City Bikes",
+    featured: false,
+  },
+  {
+    id: 20,
+    name: "Verve 1",
+    price: 499,
+    image:
+      "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/Verve1-26-57960-A-Primary",
+    desc: "The Verve 1 is the ultimate comfort bike, designed to help you enjoy the ride. With a lightweight aluminum frame, advanced components, and a comfortable geometry, this bike is built for performance, versatility, and fun. Whether you're commuting, exploring, or just enjoying a ride, the Verve 1 will help you reach new destinations.",
+    category: "City Bikes",
+    featured: false,
+  },
+  {
+    id: 21,
+    name: "Checkpoint AL 4",
+    price: 1999,
+    image:
+      "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/CheckpointAL4-26-57961-A-Primary",
+    desc: "The Checkpoint AL 4 is the ultimate entry-level Gravel bike, designed to help you explore new terrain and push your limits. With a lightweight aluminum frame, advanced components, and a comfortable geometry, this bike is built for performance, versatility, and fun. Whether you're commuting, exploring, or just enjoying a ride, the Checkpoint AL 4 will help you reach new destinations.",
+    category: "Gravel Bikes",
+    featured: false,
+  },
+  {
+    id: 22,
+    name: "Dual Sport 1",
+    price: 399,
+    image:
+      "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/DualSport1-26-57962-A-Primary",
+    desc: "The Dual Sport 1 is the ultimate hybrid bike, designed to help you tackle any terrain with ease. With a lightweight aluminum frame, advanced components, and a comfortable geometry, this bike is built for performance, versatility, and fun. Whether you're commuting, exploring, or just enjoying a ride, the Dual Sport 1 will help you reach new destinations.",
+    category: "City Bikes",
+    featured: false,
+  },
+  {
+    id: 23,
+    name: "Allant+ 7",
+    price: 4999,
+    image:
+      "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/AllantPlus7-26-57963-A-Primary",
+    desc: "The Allant+ 7 is the ultimate electric bike, designed to help you conquer any terrain with speed and power. With a lightweight aluminum frame, advanced components, and a powerful motor, this bike is built for performance, versatility, and fun. Whether you're commuting, exploring, or just enjoying a ride, the Allant+ 7 will help you reach new destinations.",
+    category: "City Bikes",
+    featured: false,
+  },
+  {
+    id: 24,
+    name: "Domane AL 2",
+    price: 899,
+    image:
+      "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/DomaneAL2-26-57964-A-Primary",
+    desc: "The Domane AL 2 is the ultimate entry-level Road bike, designed to help you get started on your cycling journey. With a lightweight aluminum frame, advanced components, and a comfortable geometry, this bike is built for performance, versatility, and fun. Whether you're commuting, training, or just enjoying a ride, the Domane AL 2 will help you reach your cycling goals.",
+    category: "Road Bikes",
+    featured: false,
+  },
+  {
+    id: 25,
+    name: "Marlin 5",
+    price: 699,
+    image:
+      "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/Marlin5-26-57965-A-Primary",
+    desc: "The Marlin 5 is the ultimate hardtail mountain bike, designed to help you tackle any trail with speed and agility. With a lightweight aluminum frame, advanced suspension technology, and top-of-the-line components, this bike is built for performance, versatility, and adventure. Whether you're racing or just enjoying a ride, the Marlin 5 will help you reach new heights.",
+    category: "Mountain Bikes",
+    featured: false,
+  },
+  {
+    id: 26,
+    name: "Speed Concept SLR 7",
+    price: 9999,
+    image:
+      "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/SpeedConceptSLR7-26-57966-A-Primary",
+    desc: "The Speed Concept SLR 7 is the ultimate triathlon and time trial bike, designed to help you go faster with less effort. With a full carbon frame, integrated storage solutions, and the latest aerodynamic technology, this bike is built for speed and efficiency.",
+    category: "Road Bikes",
+    featured: true,
+  },
+  {
+    id: 27,
+    name: "Madone SLR 7",
+    price: 8999,
+    image:
+      "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/MadoneSLR7-26-57967-A-Primary",
+    desc: "The Madone SLR 7 is the ultimate Road bike for riders who demand the best. With a lightweight carbon frame, advanced aerodynamic design, and top-of-the-line components, this bike is built for speed, comfort, and performance. Whether you're racing or just enjoying a long ride, the Madone SLR 7 will help you reach your full potential.",
+    category: "Road Bikes",
+    featured: true,
+  },
+  {
+    id: 28,
+    name: "Domane SLR 7",
+    price: 7999,
+    image:
+      "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/DomaneSLR7-26-57968-A-Primary",
+    desc: "The Domane SLR 7 is the ultimate endurance Road bike, designed to help you go farther and faster with less effort. With a lightweight carbon frame, advanced suspension technology, and top-of-the-line components, this bike is built for comfort, performance, and versatility. Whether you're tackling long rides or rough terrain, the Domane SLR 7 will help you conquer any challenge.",
+    category: "Road Bikes",
+    featured: true,
+  },
+  {
+    id: 29,
+    name: "Checkpoint SL 6",
+    price: 6999,
+    image:
+      "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/CheckpointSL6-26-57969-A-Primary",
+    desc: "The Checkpoint SL 6 is the ultimate Gravel bike, designed to help you explore new terrain and push your limits. With a lightweight carbon frame, advanced components, and a comfortable geometry, this bike is built for performance, versatility, and fun. Whether you're commuting, exploring, or just enjoying a ride, the Checkpoint SL 6 will help you reach new destinations.",
+    category: "Gravel Bikes",
+    featured: false,
+  },
+  {
+    id: 30,
+    name: "Allant+ 8",
+    price: 6999,
+    image:
+      "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/AllantPlus8-26-57970-A-Primary",
+    desc: "The Allant+ 8 is the ultimate electric bike, designed to help you conquer any terrain with speed and power. With a lightweight aluminum frame, advanced components, and a powerful motor, this bike is built for performance, versatility, and fun. Whether you're commuting, exploring, or just enjoying a ride, the Allant+ 8 will help you reach new destinations.",
+    category: "City Bikes",
+    featured: false,
   },
 ];
 
+// Accessory Data (from accessories.js, fixed image placeholders)
 const accessories = [
   {
     id: 31,
     title: "Wahoo KICKR Smart Trainer",
     price: 3999,
     image: "https://example.com/images/wahoo_kickr.jpg",
-    description: "The Wahoo KICKR is a top-of-the-line smart trainer that offers realistic ride feel and accurate power measurement.",
+    description:
+      "The Wahoo KICKR is a top-of-the-line smart trainer that offers realistic ride feel and accurate power measurement.",
     category: "Smart Trainers",
   },
   {
@@ -208,63 +410,71 @@ const accessories = [
     title: "Garmin Edge 530 GPS Bike Computer",
     price: 299,
     image: "https://example.com/images/garmin_edge_530.jpg",
-    description: "The Garmin Edge 530 is a sleek and compact GPS bike computer that provides real-time tracking and navigation.",
+    description:
+      "The Garmin Edge 530 is a sleek and compact GPS bike computer that provides real-time tracking and navigation.",
     category: "GPS Bike Computers",
   },
   {
     id: 33,
     title: "Bontrager Circuit MIPS Helmet",
-    price: 199,
+    price: 1299,
     image: "https://example.com/images/bontrager_circuit_mips.jpg",
-    description: "The Bontrager Circuit MIPS Helmet offers advanced protection, comfort, and ventilation for serious riders.",
+    description:
+      "The Bontrager Circuit MIPS Helmet is a high-performance helmet that offers advanced protection and comfort.",
     category: "Helmet",
   },
   {
     id: 34,
     title: "CamelBak Podium Chill Insulated Water Bottle",
-    price: 49,
+    price: 1499,
     image: "https://example.com/images/camelbak_podium_chill.jpg",
-    description: "The CamelBak Podium Chill is an insulated water bottle designed to keep your drink cold during long rides.",
+    description:
+      "The CamelBak Podium Chill Insulated Water Bottle is a durable and insulated water bottle that keeps your drink cold.",
     category: "Water Bottle",
   },
   {
     id: 35,
     title: "Lezyne Super GPS Bike Computer",
-    price: 299,
+    price: 499,
     image: "https://example.com/images/lezyne_super_gps.jpg",
-    description: "The Lezyne Super GPS provides accurate ride tracking, navigation, and performance metrics.",
+    description:
+      "The Lezyne Super GPS Bike Computer is a sleek and compact GPS bike computer that provides real-time tracking and navigation.",
     category: "GPS Bike Computers",
   },
   {
     id: 36,
-    title: "Bontrager Starvos MIPS Helmet",
-    price: 149,
+    title: "Trek Bontrager Starvos MIPS Helmet",
+    price: 1499,
     image: "https://example.com/images/trek_bontrager_starvos_mips.jpg",
-    description: "The Bontrager Starvos MIPS Helmet offers a perfect balance of safety, comfort, and style.",
+    description:
+      "The Trek Bontrager Starvos MIPS Helmet is a high-performance helmet that offers advanced protection and comfort.",
     category: "Helmet",
   },
   {
     id: 37,
     title: "Elite Direto XR-T Smart Trainer",
-    price: 899,
+    price: 1199,
     image: "https://example.com/images/elite_direto_xr-t.jpg",
-    description: "The Elite Direto XR-T delivers a realistic and smooth indoor training experience with advanced power accuracy.",
+    description:
+      "The Elite Direto XR-T is a high-quality smart trainer that offers realistic ride feel and accurate power measurement.",
     category: "Smart Trainers",
   },
   {
     id: 38,
-    title: "Bontrager Aeolus RSL 75 TLR Disc Road Wheelset",
+    title: "Bontrager Aelorus RSL 75 TLR Disc Road Wheelset",
     price: 1999,
     image: "https://example.com/images/bontrager_aelorus_rsl_75.jpg",
-    description: "The Bontrager Aeolus RSL 75 TLR Disc Road Wheelset provides aerodynamic performance and lightweight durability.",
+    description:
+      "The Bontrager Aelorus RSL 75 TLR Disc Road Wheelset is a durable and high-performance road wheelset.",
     category: "Wheelsets",
   },
   {
     id: 39,
     title: "Specialized S-Works Evade II Helmet",
-    price: 299,
+    price: 2499,
     image: "https://example.com/images/s-works_evade_ii.jpg",
-    description: "The Specialized S-Works Evade II Helmet is engineered for speed and superior airflow for long rides.",
+    description:
+      "The Specialized S-Works Evade II Helmet is a high-performance helmet that offers advanced protection and comfort.",
     category: "Helmet",
   },
   {
@@ -272,47 +482,53 @@ const accessories = [
     title: "Bontrager Aeolus Pro 3V TLR Disc Road Wheelset",
     price: 2999,
     image: "https://example.com/images/bontrager_aeolus_pro_3v.jpg",
-    description: "The Bontrager Aeolus Pro 3V wheelset offers performance and strength for all road conditions.",
+    description:
+      "The Bontrager Aeolus Pro 3V TLR Disc Road Wheelset is a durable and high-performance road wheelset.",
     category: "Wheelsets",
   },
   {
     id: 41,
     title: "Trek RSL Knit Road Cycling Shoes",
-    price: 349,
+    price: 2499,
     image: "https://example.com/images/trek_rsl_knit_shoes.jpg",
-    description: "The Trek RSL Knit Road Shoes are lightweight and breathable, offering excellent comfort and stiffness.",
+    description:
+      "The Trek RSL Knit Road Cycling Shoes are designed for comfort and durability.",
     category: "Shoes",
   },
   {
     id: 42,
     title: "Garmin Varia RTL515 Rearview Radar and Tail Light",
-    price: 299,
+    price: 1299,
     image: "https://example.com/images/garmin_varia_rtl515.jpg",
-    description: "The Garmin Varia RTL515 enhances road safety with radar detection and a bright rear light.",
+    description:
+      "The Garmin Varia RTL515 Rearview Radar and Tail Light is a high-performance rearview radar and tail light.",
     category: "Radar and Tail Lights",
   },
   {
     id: 43,
     title: "Wahoo ELEMNT BOLT GPS Bike Computer",
-    price: 279,
+    price: 799,
     image: "https://example.com/images/wahoo_elemnt_bolt.jpg",
-    description: "The Wahoo ELEMNT BOLT is a compact GPS bike computer optimized for aerodynamics and simplicity.",
+    description:
+      "The Wahoo ELEMNT BOLT GPS Bike Computer is a sleek and compact GPS bike computer that provides real-time tracking and navigation.",
     category: "GPS Bike Computers",
   },
   {
     id: 44,
     title: "CamelBak Chase Bike Vest",
-    price: 129,
+    price: 799,
     image: "https://example.com/images/camelbak_chase_bike_vest.jpg",
-    description: "The CamelBak Chase Bike Vest provides hydration and storage in a lightweight, comfortable design.",
+    description:
+      "The CamelBak Chase Bike Vest is a durable and comfortable bike vest that offers protection from the elements.",
     category: "Bike Vests",
   },
   {
     id: 45,
     title: "Trek RSL Mountain Cycling Shoes",
-    price: 249,
+    price: 1999,
     image: "https://example.com/images/trek_rsl_mountain_shoes.jpg",
-    description: "The Trek RSL Mountain Shoes are built for traction, comfort, and high performance on trails.",
+    description:
+      "The Trek RSL Mountain Cycling Shoes are designed for mountain biking and offer traction and durability.",
     category: "Shoes",
   },
 ];
@@ -324,28 +540,28 @@ const products = [...bikes, ...accessories];
 // --- Product Endpoints ---
 
 //Primary" welcome route
-app.get(/, (req, res) => {
-  res.send(Trek Bikes API is running!);
+app.get("/", (req, res) => {
+  res.send("Trek Bikes API is running!");
 });
 
 // Get all bikes/products (used by bikes-page.js)
-app.get(/api/products / all, (req, res) => {
+app.get("/api/products/all", (req, res) => {
   // Return all products, combining bikes and accessories
   res.json(products);
 });
 
-app.get(/api/products /: id, (req, res) => {
+app.get("/api/products/:id", (req, res) => {
   const productId = parseInt(req.params.id);
   const product = products.find((p) => p.id === productId);
   if (product) {
     res.json(product);
   } else {
-    res.status(404).send(Product not found.);
+    res.status(404).send("Product not found.");
   }
 });
 
 // Get featured products (used by script.js for index.html)
-app.get(/api/products / featured, (req, res) => {
+app.get("/api/products/featured", (req, res) => {
   const featuredProducts = products.filter((p) => p.featured);
   // Ensure we also include a few accessories as featured if not enough bikes are featured
   if (featuredProducts.length < 3) {
@@ -359,13 +575,13 @@ app.get(/api/products / featured, (req, res) => {
 });
 
 // Get all accessories
-app.get(/api/accessories, (req, res) => {
+app.get("/api/accessories", (req, res) => {
   res.json(accessories);
 });
 
 // Search products (re-implemented from bikes.js)
-app.get(/api/search, (req, res) => {
-  const query = req.query.q ? req.query.q.toLowerCase() : ;
+app.get("/api/search", (req, res) => {
+  const query = req.query.q ? req.query.q.toLowerCase() : "";
 
   if (!query) {
     // If no query, return a message or an empty array
