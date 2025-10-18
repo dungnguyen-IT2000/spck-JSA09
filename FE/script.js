@@ -96,7 +96,7 @@ async function displayFeaturedProducts() {
 
         container.innerHTML = featuredProducts.map(product => `
             <div class="product-card">
-                <img src="${product.image}" alt="${product.name || product.title}" class="product-image" onerror="this.src='https://via.placeholder.com/300x250?text=No+Image'">
+                <img src="${product.image}" alt="${product.name || product.title}" class="product-image" />
                 <div class="product-info">
                     <div class="product-category">${product.category}</div>
                     <h3 class="product-name">${product.name || product.title}</h3>

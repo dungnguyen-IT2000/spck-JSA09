@@ -527,6 +527,7 @@ app.get("/", (req, res) => {
 app.get("/api/products/all", (req, res) => {
   // Return all products, combining bikes and accessories
   res.json(products);
+  console.log(products);
 });
 
 app.get("/api/products/:id", (req, res) => {

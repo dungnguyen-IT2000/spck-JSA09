@@ -1,7 +1,7 @@
 // bikes-page.js (CẬP NHẬT đầy đủ với Sidebar Filter)
 
 let allBikes = [];
-let currentSort = 'featured';
+let currentSort = 'all';
 let selectedCategories = [];
 let selectedPriceRange = null;
 
@@ -98,6 +98,7 @@ function sortBikes(bikes, sortType) {
         case 'high-low':
             return sorted.sort((a, b) => b.price - a.price);
         case 'featured':
+        case 'all':
         default:
             return sorted;
     }
@@ -130,16 +131,21 @@ async function loadBikes() {
         const response = await fetch('http://localhost:3000/api/products/all');
         const products = await response.json();
 
-        // Lọc chỉ lấy xe đạp (id <= 30)
-        allBikes = products.filter(p => p.id <= 30);
+        // ✅ Chỉ lấy sản phẩm có category chứa "bikes"
+        allBikes = products.filter(p => p.category && p.category.toLowerCase().includes('bikes'));
+
+        // Nếu muốn load tất cả sản phẩm thì dùng dòng dưới thay thế:
+        // allBikes = products;
 
         applyFiltersAndSort();
     } catch (error) {
         console.error('Lỗi khi tải xe đạp:', error);
-        document.getElementById('bikesGrid').innerHTML = '<p style="color: white; text-align: center;">Không thể tải danh sách xe đạp. Vui lòng kiểm tra server.</p>';
+        document.getElementById('bikesGrid').innerHTML =
+            '<p style="color: white; text-align: center;">Không thể tải danh sách xe đạp. Vui lòng kiểm tra server.</p>';
     }
 }
 
+console
 // Hiển thị xe đạp
 function displayBikes(bikes) {
     const grid = document.getElementById('bikesGrid');
@@ -151,7 +157,7 @@ function displayBikes(bikes) {
 
     grid.innerHTML = bikes.map(bike => `
         <div class="product-card">
-            <img src="${bike.image}" alt="${bike.name}" class="product-image" onerror="this.src='https://via.placeholder.com/300x250?text=No+Image'">
+            <img src="${bike.image}" alt="${bike.name}" class="product-image" />
             <div class="product-info">
                 <div class="product-category">${bike.category}</div>
                 <h3 class="product-name">${bike.name}</h3>
@@ -162,6 +168,7 @@ function displayBikes(bikes) {
             </div>
         </div>
     `).join('');
+    console.log("Bike list:", bikes);
 }
 
 // Xử lý thay đổi category checkbox
@@ -187,12 +194,12 @@ function clearAllFilters() {
     document.querySelectorAll('input[name="price-range"]').forEach(radio => radio.checked = false);
 
     // Reset sort select
-    document.getElementById('sort-select').value = 'featured';
+    document.getElementById('sort-select').value = 'all';
 
     // Reset biến
     selectedCategories = [];
     selectedPriceRange = null;
-    currentSort = 'featured';
+    currentSort = 'all';
 
     // Hiển thị lại tất cả
     applyFiltersAndSort();
