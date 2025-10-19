@@ -3499,6 +3499,826 @@ const bikes = [
       }
     }
   },
+  {
+    id: 32,
+    name: "Emonda SLR 7",
+    price: 11999,
+    image: "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/EmondaSLR7-26-57972-A-Primary",
+    desc: "The Emonda SLR 7 is the pinnacle of lightweight road bikes, engineered to deliver unmatched climbing performance and agility. Crafted with advanced carbon technology and equipped with high-end components, this bike is designed for riders who demand the best in speed and responsiveness. Whether you're tackling steep ascents or pushing your limits on fast descents, the Emonda SLR 7 is your ultimate companion for conquering the road.",
+    category: "Road Bikes",
+    featured: false,
+    thumb_images: [
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/5ca09.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/c7ff5.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/b1a70.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/e3794.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/c38a9.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/1b2eb.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/54490.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/4096a.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/dc50d.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/4212b.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/0b893.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/f6d6f.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/0a7cd.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/0692e.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/98dbd.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/e0581.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/21888.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/ecdf7.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/430a6.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/42473.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/6be56.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/142c1.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/7f15b.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/e2a15.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/cb5b0.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/b1027.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/13ecd.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/700d5.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/a4727.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/00ded.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/f71d4.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/0d389.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/c4ba3.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/600f5.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/cacc5.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/20a8d.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/829a8.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/15f40.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/1d6ff.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/4a3a5.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/efad0.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/d7a5c.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/858a7.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/9d69a.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/58038.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/8a5d6.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/f60b9.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/c9976.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/f4307.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/0ef5a.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/81938.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/9d4d4.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/1f26d.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/e7d73.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/8fc17.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/16f92.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/32ba6.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/dc858.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/4da78.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/87c0e.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/b8cc9.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/73564.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/a43dd.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/6aebc.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/0d95e.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/f53a5.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/bad05.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/1cfeb.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/4382a.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/27f60.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/82cb7.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/3892c.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/62e31.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/c84f9.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/19773.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/d54ab.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/2b4de.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/1a4aa.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/ad853.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/d5cd7.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/08326.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/88ab0.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/b00ae.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/328fe.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/8970f.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/cd7bc.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/6096e.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/d12f0.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/e2712.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/fe60c.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/15f7d.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/558a5.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/56bea.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/a9192.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/2ecd8.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/ae18f.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/715f3.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/d40a0.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/3ebea.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/d72f7.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/07b21.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/184cf.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/afba2.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/f7fc9.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/f1554.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/43bee.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/0751e.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/4c41f.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/b3433.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/e06ed.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/9a94f.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/6759b.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/62e2f.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/a524c.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/5fe30.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/d3a2b.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/24ec2.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/0fd37.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/62b64.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/b21b5.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/f292c.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/fd28e.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/82cf6.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/66c60.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/33473.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/77144.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/a9681.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/3835d.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/690ab.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/a8fa6.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-7/thumbs/1000/7d09e.webp"
+    ],
+    specs: {
+      short: {
+        frame: "Carbon",
+        fork: "Carbon",
+        wheels: "Carbon",
+        drivetrain: "2 × 12",
+        groupset: "Sram Red AXS",
+        power_meter: "Sram Red AXS",
+        brakes: "Sram Hydraulic Disc"
+      },
+      full: {
+        build: {
+          Frame:
+            "800 Series OCLV Carbon, KVF (Kammtail Virtual Foil) tube shape, T47 BB, integrated Bento box, integrated downtube storage",
+          "BB Standard": "T47, Threaded",
+          "Tire Clearance": "28c",
+          Colors: [
+            "Hex Blue / Trek Black",
+            "Emerald Iris / Trek Black",
+            "Carbon Smoke / Prismatic Marble",
+            "Metallic Red Smoke to Carbon Red Smoke Fade"
+          ],
+          Fork: "SC full foil carbon, integrated brake & stem",
+          "Bottom Bracket": "Praxis, T47 threaded, internal bearing",
+          Saddle: "Bontrager Hilo Pro Carbon",
+          Seatpost: {
+            S: {
+              model: "Speed Concept SLR",
+              offset_options: ["11.5mm", "-20mm"],
+              length: "short"
+            },
+            M: {
+              model: "Speed Concept SLR",
+              offset_options: ["11.5mm", "-20mm"],
+              length: "tall"
+            },
+            L: {
+              model: "Speed Concept SLR",
+              offset_options: ["11.5mm", "-20mm"],
+              length: "tall"
+            },
+            XL: {
+              model: "Speed Concept SLR",
+              offset_options: ["11.5mm", "-20mm"],
+              length: "tall"
+            }
+          },
+          "Seatpost Type": "Rigid",
+          groupset: {
+            "Rear Derailleur": "Shimano Dura-Ace R9250 Di2, 34T max cog",
+            "Front Derailleur": "Shimano Dura-Ace R9250 Di2, braze-on, down swing",
+            Crank: {
+              S: "Shimano Dura-Ace R9200, 52/36, 170mm length",
+              M: "Shimano Dura-Ace R9200, 52/36, 172.5mm length",
+              L: "Shimano Dura-Ace R9200, 52/36, 172.5mm length",
+              XL: "Shimano Dura-Ace R9200, 52/36, 175mm length"
+            },
+            Shifters:
+              "Shimano Dura-Ace hydraulic disc, R9180 Di2 lever, R9270 caliper, 160mm rotor",
+            Cassette: "Shimano Dura-Ace R9200, 11-30, 12 speed",
+            Chain: "Shimano Dura-Ace / XTR M9100, 12 speed",
+            Brakes: {
+              model: "Shimano Dura-Ace hydraulic disc",
+              mount: "flat mount",
+              type: "Hydraulic Disc"
+            }
+          },
+          wheels: {
+            Rims: {
+              Front:
+                "Bontrager Aeolus RSL 51, OCLV Carbon, Tubeless Ready, 51mm rim depth, 100x12mm thru axle",
+              Rear:
+                "Bontrager Aeolus RSL 51, OCLV Carbon, Tubeless Ready, 51mm rim depth, Shimano 11/12 freehub, 142x12mm thru axle"
+            },
+            Tires: "Bontrager R4 320, 700x25mm",
+            "Disc Rotors": "Shimano CL900, centerlock, 160mm"
+          }
+        }
+      }
+    }
+  },
+  {
+    id: 33,
+    name: "Emonda SLR 9",
+    price: 13999,
+    image: "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/EmondaSLR9-26-57973-A-Primary",
+    desc: "The Emonda SLR 9 is the pinnacle of lightweight road bikes, engineered to deliver unmatched climbing performance and agility. Crafted with advanced carbon technology and equipped with high-end components, this bike is designed for riders who demand the best in speed and responsiveness. Whether you're tackling steep ascents or pushing your limits on fast descents, the Emonda SLR 9 is your ultimate companion for conquering the road.",
+    category: "Road Bikes",
+    featured: false,
+    thumb_images: [
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/63c1e.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/b1cd2.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/882c8.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/e890e.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/96291.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/0fd20.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/4da94.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/3c845.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/e2c57.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/b79d6.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/58649.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/b0bae.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/2bd6c.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/f32f5.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/8b4b8.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/77a77.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/55d96.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/85061.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/efcb4.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/e34e8.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/e3c6b.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/3d6a6.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/f8183.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/2645f.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/d5bcd.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/dac66.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/2ff83.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/adb53.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/e3d1d.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/f84c3.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/7a23e.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/58469.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/28e0c.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/3e643.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/6f907.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/296a2.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/2483a.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/d6b20.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/78591.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/30d84.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/45f28.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/c5e60.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/aeec3.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/664da.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/05604.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/e2375.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/ebe29.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/56f25.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/c7053.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/0ad71.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/8b992.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/95a63.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/537af.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/53034.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/ee6cb.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/e4c1a.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/87569.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/b9fbd.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/bf406.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/36fc6.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/7c1f6.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/bcf29.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/99278.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/d68a4.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/22411.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/4f00e.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/e472b.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/86174.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/1a84b.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/1a10d.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/9f54d.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/763c6.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/64be0.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/6d15b.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/5b661.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/83205.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/1a560.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/4e66b.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/e6cc8.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/fd3e8.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/6c873.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/eb2a2.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/7f644.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/ef66b.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/6eb94.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/7c8af.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/f2d4e.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/dafb5.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/1f925.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/903b2.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/7ff95.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/89af0.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/a69c0.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/6acb4.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/fb0c4.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/a6b07.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/61fd0.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/2cbca.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/8f042.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/1931e.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/6f536.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/e4f22.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/23253.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/6eb29.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/5719d.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/d3087.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/18384.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/92864.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/f13d8.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/9005f.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/4333d.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/2df22.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/e8728.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/e05e0.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/b500b.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/c3b3f.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/e2860.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/b7e49.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/f3aab.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/emonda-slr-9-axs/thumbs/1000/9af8b.webp"
+    ],
+    specs: {
+      short: {
+        frame: "Carbon",
+        fork: "Carbon",
+        wheels: "Carbon",
+        drivetrain: "2 × 12",
+        groupset: "Sram Red AXS",
+        power_meter: "Sram Red AXS",
+        brakes: "Sram Hydraulic Disc"
+      },
+      full: {
+        build: {
+          Frame:
+            "800 Series OCLV Carbon, KVF (Kammtail Virtual Foil) tube shape, T47 BB, integrated Bento box, integrated downtube storage",
+          "BB Standard": "T47, Threaded",
+          "Tire Clearance": "28c",
+          Colors: [
+            "Hex Blue / Trek Black",
+            "Emerald Iris / Trek Black",
+            "Carbon Smoke / Prismatic Marble",
+            "Metallic Red Smoke to Carbon Red Smoke Fade"
+          ],
+          Fork: "SC full foil carbon, integrated brake & stem",
+          "Bottom Bracket": "Praxis, T47 threaded, internal bearing",
+          Saddle: "Bontrager Hilo Pro Carbon",
+          Seatpost: {
+            S: {
+              model: "Speed Concept SLR",
+              offset_options: ["11.5mm", "-20mm"],
+              length: "short"
+            },
+            M: {
+              model: "Speed Concept SLR",
+              offset_options: ["11.5mm", "-20mm"],
+              length: "tall"
+            },
+            L: {
+              model: "Speed Concept SLR",
+              offset_options: ["11.5mm", "-20mm"],
+              length: "tall"
+            },
+            XL: {
+              model: "Speed Concept SLR",
+              offset_options: ["11.5mm", "-20mm"],
+              length: "tall"
+            }
+          },
+          "Seatpost Type": "Rigid",
+          groupset: {
+            "Rear Derailleur": "Shimano Dura-Ace R9250 Di2, 34T max cog",
+            "Front Derailleur": "Shimano Dura-Ace R9250 Di2, braze-on, down swing",
+            Crank: {
+              S: "Shimano Dura-Ace R9200, 52/36, 170mm length",
+              M: "Shimano Dura-Ace R9200, 52/36, 172.5mm length",
+              L: "Shimano Dura-Ace R9200, 52/36, 172.5mm length",
+              XL: "Shimano Dura-Ace R9200, 52/36, 175mm length"
+            },
+            Shifters:
+              "Shimano Dura-Ace hydraulic disc, R9180 Di2 lever, R9270 caliper, 160mm rotor",
+            Cassette: "Shimano Dura-Ace R9200, 11-30, 12 speed",
+            Chain: "Shimano Dura-Ace / XTR M9100, 12 speed",
+            Brakes: {
+              model: "Shimano Dura-Ace hydraulic disc",
+              mount: "flat mount",
+              type: "Hydraulic Disc"
+            }
+          },
+          wheels: {
+            Rims: {
+              Front:
+                "Bontrager Aeolus RSL 51, OCLV Carbon, Tubeless Ready, 51mm rim depth, 100x12mm thru axle",
+              Rear:
+                "Bontrager Aeolus RSL 51, OCLV Carbon, Tubeless Ready, 51mm rim depth, Shimano 11/12 freehub, 142x12mm thru axle"
+            },
+            Tires: "Bontrager R4 320, 700x25mm",
+            "Disc Rotors": "Shimano CL900, centerlock, 160mm"
+          }
+        }
+      }
+    }
+  },
+  {
+    id: 34,
+    name: "Speed Concept SLR 6",
+    price: 7999,
+    image: "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/SpeedConceptSLR6-26-57972-A-Primary",
+    desc: "The Speed Concept SLR 6 is a high-performance time trial and triathlon bike designed for athletes seeking speed and efficiency. Featuring an aerodynamic carbon frame and advanced components, this bike is built to minimize drag and maximize power transfer. Whether you're racing against the clock or pushing your limits in a triathlon, the Speed Concept SLR 6 offers the perfect blend of cutting-edge technology and rider-focused design to help you achieve your best performance.",
+    category: "Road Bikes",
+    featured: false,
+    thumb_images: [
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/ea8fa.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/8bbdf.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/5e82d.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/00f7d.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/1e36b.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/0e721.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/73caa.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/76f4c.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/d3cc6.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/129ab.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/67b29.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/8c6ae.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/324db.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/1df65.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/aa22d.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/c1951.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/02ca5.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/c61d8.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/dc1b7.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/7782c.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/e54d2.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/010a9.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/7dbee.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/17f86.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/cf115.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/0703b.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/ff954.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/3787f.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/e78cc.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/06656.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/49991.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/15ac6.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/18135.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/f1023.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/669ee.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/47b87.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/6c8a4.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/f58cf.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/55a0f.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/01386.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/4982e.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/52559.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/707be.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/a4467.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/bf0ee.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/0f47f.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/aa311.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/e5f50.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/772b8.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/ecaa6.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/651c4.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/a1b06.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/a0904.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/9bf97.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/24ff0.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/039a1.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/63e66.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/73c62.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/5d4c9.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/6fb76.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/2801d.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/cf085.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/b61e3.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/2b59a.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/96226.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/8ee5b.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/05add.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/506cb.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/70927.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/47edf.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/0be31.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2024/speed-concept-slr-6-axs/thumbs/1000/bde11.webp"
+    ],
+    specs: {
+      short: {
+        frame: "Carbon",
+        fork: "Carbon",
+        wheels: "Carbon",
+        drivetrain: "2 × 12",
+        groupset: "Sram Red AXS",
+        power_meter: "Sram Red AXS",
+        brakes: "Sram Hydraulic Disc"
+      },
+      full: {
+        build: {
+          Frame:
+            "800 Series OCLV Carbon, KVF (Kammtail Virtual Foil) tube shape, T47 BB, integrated Bento box, integrated downtube storage",
+          "BB Standard": "T47, Threaded",
+          "Tire Clearance": "28c",
+          Colors: [
+            "Hex Blue / Trek Black",
+            "Emerald Iris / Trek Black",
+            "Carbon Smoke / Prismatic Marble",
+            "Metallic Red Smoke to Carbon Red Smoke Fade"
+          ],
+          Fork: "SC full foil carbon, integrated brake & stem",
+          "Bottom Bracket": "Praxis, T47 threaded, internal bearing",
+          Saddle: "Bontrager Hilo Pro Carbon",
+          Seatpost: {
+            S: {
+              model: "Speed Concept SLR",
+              offset_options: ["11.5mm", "-20mm"],
+              length: "short"
+            },
+            M: {
+              model: "Speed Concept SLR",
+              offset_options: ["11.5mm", "-20mm"],
+              length: "tall"
+            },
+            L: {
+              model: "Speed Concept SLR",
+              offset_options: ["11.5mm", "-20mm"],
+              length: "tall"
+            },
+            XL: {
+              model: "Speed Concept SLR",
+              offset_options: ["11.5mm", "-20mm"],
+              length: "tall"
+            }
+          },
+          "Seatpost Type": "Rigid",
+          groupset: {
+            "Rear Derailleur": "Shimano Dura-Ace R9250 Di2, 34T max cog",
+            "Front Derailleur": "Shimano Dura-Ace R9250 Di2, braze-on, down swing",
+            Crank: {
+              S: "Shimano Dura-Ace R9200, 52/36, 170mm length",
+              M: "Shimano Dura-Ace R9200, 52/36, 172.5mm length",
+              L: "Shimano Dura-Ace R9200, 52/36, 172.5mm length",
+              XL: "Shimano Dura-Ace R9200, 52/36, 175mm length"
+            },
+            Shifters:
+              "Shimano Dura-Ace hydraulic disc, R9180 Di2 lever, R9270 caliper, 160mm rotor",
+            Cassette: "Shimano Dura-Ace R9200, 11-30, 12 speed",
+            Chain: "Shimano Dura-Ace / XTR M9100, 12 speed",
+            Brakes: {
+              model: "Shimano Dura-Ace hydraulic disc",
+              mount: "flat mount",
+              type: "Hydraulic Disc"
+            }
+          },
+          wheels: {
+            Rims: {
+              Front:
+                "Bontrager Aeolus RSL 51, OCLV Carbon, Tubeless Ready, 51mm rim depth, 100x12mm thru axle",
+              Rear:
+                "Bontrager Aeolus RSL 51, OCLV Carbon, Tubeless Ready, 51mm rim depth, Shimano 11/12 freehub, 142x12mm thru axle"
+            },
+            Tires: "Bontrager R4 320, 700x25mm",
+            "Disc Rotors": "Shimano CL900, centerlock, 160mm"
+          }
+        }
+      }
+    }
+  },
+  {
+    id: 35,
+    name: "Supercaliber SL 9.7 GX AXS Gen 2",
+    price: 6999,
+    image: "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/SupercaliberSLR7-26-57973-A-Primary",
+    desc: "The Supercaliber SLR 7 is a high-performance cross-country mountain bike designed for riders who demand speed, agility, and efficiency on the trails. Featuring Trek's innovative IsoStrut suspension technology, this bike provides a smooth ride while maintaining the lightweight characteristics of a hardtail. Equipped with top-tier components and a carbon frame, the Supercaliber SLR 7 is built to tackle challenging terrain and elevate your off-road riding experience.",
+    category: "Mountain Bikes",
+    featured: false,
+    thumb_images: [
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2026/supercaliber-sl-9.7-gx-axs-gen-2/thumbs/1000/a2463.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2026/supercaliber-sl-9.7-gx-axs-gen-2/thumbs/1000/4e3c7.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2026/supercaliber-sl-9.7-gx-axs-gen-2/thumbs/1000/8cba7.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2026/supercaliber-sl-9.7-gx-axs-gen-2/thumbs/1000/c5ce5.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2026/supercaliber-sl-9.7-gx-axs-gen-2/thumbs/1000/b84fd.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2026/supercaliber-sl-9.7-gx-axs-gen-2/thumbs/1000/a8972.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2026/supercaliber-sl-9.7-gx-axs-gen-2/thumbs/1000/f3b22.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2026/supercaliber-sl-9.7-gx-axs-gen-2/thumbs/1000/a4937.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2026/supercaliber-sl-9.7-gx-axs-gen-2/thumbs/1000/e1181.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2026/supercaliber-sl-9.7-gx-axs-gen-2/thumbs/1000/41a6d.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2026/supercaliber-sl-9.7-gx-axs-gen-2/thumbs/1000/dacdb.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2026/supercaliber-sl-9.7-gx-axs-gen-2/thumbs/1000/698ad.webp"
+    ],
+    specs: {
+      short: {
+        frame: "Carbon",
+        fork: "Carbon",
+        wheels: "Carbon",
+        drivetrain: "2 × 12",
+        groupset: "Sram Red AXS",
+        power_meter: "Sram Red AXS",
+        brakes: "Sram Hydraulic Disc"
+      },
+      full: {
+        build: {
+          Frame:
+            "800 Series OCLV Carbon, KVF (Kammtail Virtual Foil) tube shape, T47 BB, integrated Bento box, integrated downtube storage",
+          "BB Standard": "T47, Threaded",
+          "Tire Clearance": "28c",
+          Colors: [
+            "Hex Blue / Trek Black",
+            "Emerald Iris / Trek Black",
+            "Carbon Smoke / Prismatic Marble",
+            "Metallic Red Smoke to Carbon Red Smoke Fade"
+          ],
+          Fork: "SC full foil carbon, integrated brake & stem",
+          "Bottom Bracket": "Praxis, T47 threaded, internal bearing",
+          Saddle: "Bontrager Hilo Pro Carbon",
+          Seatpost: {
+            S: {
+              model: "Speed Concept SLR",
+              offset_options: ["11.5mm", "-20mm"],
+              length: "short"
+            },
+            M: {
+              model: "Speed Concept SLR",
+              offset_options: ["11.5mm", "-20mm"],
+              length: "tall"
+            },
+            L: {
+              model: "Speed Concept SLR",
+              offset_options: ["11.5mm", "-20mm"],
+              length: "tall"
+            },
+            XL: {
+              model: "Speed Concept SLR",
+              offset_options: ["11.5mm", "-20mm"],
+              length: "tall"
+            }
+          },
+          "Seatpost Type": "Rigid",
+          groupset: {
+            "Rear Derailleur": "Shimano Dura-Ace R9250 Di2, 34T max cog",
+            "Front Derailleur": "Shimano Dura-Ace R9250 Di2, braze-on, down swing",
+            Crank: {
+              S: "Shimano Dura-Ace R9200, 52/36, 170mm length",
+              M: "Shimano Dura-Ace R9200, 52/36, 172.5mm length",
+              L: "Shimano Dura-Ace R9200, 52/36, 172.5mm length",
+              XL: "Shimano Dura-Ace R9200, 52/36, 175mm length"
+            },
+            Shifters:
+              "Shimano Dura-Ace hydraulic disc, R9180 Di2 lever, R9270 caliper, 160mm rotor",
+            Cassette: "Shimano Dura-Ace R9200, 11-30, 12 speed",
+            Chain: "Shimano Dura-Ace / XTR M9100, 12 speed",
+            Brakes: {
+              model: "Shimano Dura-Ace hydraulic disc",
+              mount: "flat mount",
+              type: "Hydraulic Disc"
+            }
+          },
+          wheels: {
+            Rims: {
+              Front:
+                "Bontrager Aeolus RSL 51, OCLV Carbon, Tubeless Ready, 51mm rim depth, 100x12mm thru axle",
+              Rear:
+                "Bontrager Aeolus RSL 51, OCLV Carbon, Tubeless Ready, 51mm rim depth, Shimano 11/12 freehub, 142x12mm thru axle"
+            },
+            Tires: "Bontrager R4 320, 700x25mm",
+            "Disc Rotors": "Shimano CL900, centerlock, 160mm"
+          }
+        }
+      }
+    }
+  },
+  {
+    id: 36,
+    name: "Supercaliber SL 9.8 XT Gen 2",
+    price: 5999,
+    image: "https://media.trekbikes.com/image/upload/w_1024,h_768,c_pad,f_auto,fl_progressive:semi,q_auto/SupercaliberSLR7-26-57973-A-Primary",
+    desc: "The Supercaliber SLR 7 is a high-performance cross-country mountain bike designed for riders who demand speed, agility, and efficiency on the trails. Featuring Trek's innovative IsoStrut suspension technology, this bike provides a smooth ride while maintaining the lightweight characteristics of a hardtail. Equipped with top-tier components and a carbon frame, the Supercaliber SLR 7 is built to tackle challenging terrain and elevate your off-road riding experience.",
+    category: "Mountain Bikes",
+    featured: false,
+    thumb_images: [
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/6fba3.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/c4846.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/1cee7.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/c5f06.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/76c39.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/2b15b.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/47a22.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/b739b.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/074cd.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/dc978.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/63461.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/ccc02.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/43b28.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/f9465.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/a652d.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/21716.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/20fbb.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/16205.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/ae5a7.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/371ca.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/5b9b5.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/91537.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/4821e.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/95b27.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/54077.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/8ba32.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/25023.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/74007.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/2e20a.webp",
+      "https://d2yn9m4p3q9iyv.cloudfront.net/trek/2025/supercaliber-slr-9.8-xt-gen-2/thumbs/1000/a0784.webp"
+    ],
+    specs: {
+      short: {
+        frame: "Carbon",
+        fork: "Carbon",
+        wheels: "Carbon",
+        drivetrain: "2 × 12",
+        groupset: "Sram Red AXS",
+        power_meter: "Sram Red AXS",
+        brakes: "Sram Hydraulic Disc"
+      },
+      full: {
+        build: {
+          Frame:
+            "800 Series OCLV Carbon, KVF (Kammtail Virtual Foil) tube shape, T47 BB, integrated Bento box, integrated downtube storage",
+          "BB Standard": "T47, Threaded",
+          "Tire Clearance": "28c",
+          Colors: [
+            "Hex Blue / Trek Black",
+            "Emerald Iris / Trek Black",
+            "Carbon Smoke / Prismatic Marble",
+            "Metallic Red Smoke to Carbon Red Smoke Fade"
+          ],
+          Fork: "SC full foil carbon, integrated brake & stem",
+          "Bottom Bracket": "Praxis, T47 threaded, internal bearing",
+          Saddle: "Bontrager Hilo Pro Carbon",
+          Seatpost: {
+            S: {
+              model: "Speed Concept SLR",
+              offset_options: ["11.5mm", "-20mm"],
+              length: "short"
+            },
+            M: {
+              model: "Speed Concept SLR",
+              offset_options: ["11.5mm", "-20mm"],
+              length: "tall"
+            },
+            L: {
+              model: "Speed Concept SLR",
+              offset_options: ["11.5mm", "-20mm"],
+              length: "tall"
+            },
+            XL: {
+              model: "Speed Concept SLR",
+              offset_options: ["11.5mm", "-20mm"],
+              length: "tall"
+            }
+          },
+          "Seatpost Type": "Rigid",
+          groupset: {
+            "Rear Derailleur": "Shimano Dura-Ace R9250 Di2, 34T max cog",
+            "Front Derailleur": "Shimano Dura-Ace R9250 Di2, braze-on, down swing",
+            Crank: {
+              S: "Shimano Dura-Ace R9200, 52/36, 170mm length",
+              M: "Shimano Dura-Ace R9200, 52/36, 172.5mm length",
+              L: "Shimano Dura-Ace R9200, 52/36, 172.5mm length",
+              XL: "Shimano Dura-Ace R9200, 52/36, 175mm length"
+            },
+            Shifters:
+              "Shimano Dura-Ace hydraulic disc, R9180 Di2 lever, R9270 caliper, 160mm rotor",
+            Cassette: "Shimano Dura-Ace R9200, 11-30, 12 speed",
+            Chain: "Shimano Dura-Ace / XTR M9100, 12 speed",
+            Brakes: {
+              model: "Shimano Dura-Ace hydraulic disc",
+              mount: "flat mount",
+              type: "Hydraulic Disc"
+            }
+          },
+          wheels: {
+            Rims: {
+              Front:
+                "Bontrager Aeolus RSL 51, OCLV Carbon, Tubeless Ready, 51mm rim depth, 100x12mm thru axle",
+              Rear:
+                "Bontrager Aeolus RSL 51, OCLV Carbon, Tubeless Ready, 51mm rim depth, Shimano 11/12 freehub, 142x12mm thru axle"
+            },
+            Tires: "Bontrager R4 320, 700x25mm",
+            "Disc Rotors": "Shimano CL900, centerlock, 160mm"
+          }
+        }
+      }
+    }
+  }
 ];
 
 // Accessory Data (from accessories.js, fixed image placeholders)
